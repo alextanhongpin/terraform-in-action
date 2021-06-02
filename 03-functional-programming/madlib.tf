@@ -2,7 +2,9 @@ terraform {
   # Always define the version.
   required_version = "~> 0.15.4"
   required_providers {
-    random = "~> 3.1.0"
+    random  = "~> 3.1.0"
+    local   = "~> 2.1"
+    archive = "~> 2.2.0"
   }
 }
 
